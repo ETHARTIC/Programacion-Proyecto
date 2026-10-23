@@ -1,0 +1,135 @@
+PROYECTO FINAL B — ARROYO CAPITAL
+Tesis de inversión y portafolio en la industria del cine
+Programación Analítica II — Universidad de Montevideo
+
+===============================================================================
+CONTEXTO
+===============================================================================
+
+Arroyo Capital es un fondo de private equity con oficinas en Montevideo y Miami.
+El comité de inversiones acaba de aprobar la apertura de una línea de
+financiamiento de producciones cinematográficas por USD 500 millones, a colocar
+a lo largo de los próximos tres años.
+
+Nadie en el fondo invirtió nunca en cine. El Chief Investment Officer les
+encargó a ustedes el trabajo previo:
+
+    "No quiero que me digan qué película va a funcionar, porque eso no lo sabe
+    nadie. Quiero saber qué CLASE de película tiene mejor relación entre riesgo y
+    retorno, con cuarenta años de evidencia atrás. Si me dicen que el terror
+    rinde ochenta veces lo invertido, no les voy a creer, así que tráiganme el
+    número que sí se sostiene. Y díganme cuánto puedo perder, no solo cuánto
+    puedo ganar."
+
+Les entregan la base histórica de la industria y el índice de precios de
+Estados Unidos.
+
+===============================================================================
+ARCHIVO 1 — peliculas.csv
+===============================================================================
+
+Una fila por película estrenada entre 1980 y 2020.
+
+id_pelicula              Identificador de la película.
+titulo                   Título original.
+anio_estreno             Año de estreno.
+fecha_estreno            Fecha de estreno.
+genero                   Género principal.
+clasificacion            Clasificación por edades: ATP, Supervisión parental,
+                         Mayores de 13, Mayores de 17, Solo adultos o
+                         Sin clasificar.
+pais_origen              País de origen de la producción.
+es_secuela               Si el título forma parte de una franquicia o saga
+                         (secuela, precuela o continuación).
+director                 Director.
+guionista                Guionista principal.
+protagonista             Actor o actriz protagónico.
+productora               Productora responsable.
+duracion_minutos         Duración.
+puntaje_imdb             Puntaje promedio de los usuarios de IMDb, de 1 a 10.
+cantidad_votos           Cantidad de votos que recibió en IMDb.
+presupuesto_usd          Presupuesto de producción, en dólares CORRIENTES del
+                         año de estreno. No incluye el gasto de marketing ni de
+                         distribución.
+recaudacion_mundial_usd  Recaudación mundial en salas, en dólares CORRIENTES del
+                         año de estreno. Es la recaudación bruta de boletería:
+                         el estudio no se queda con todo eso.
+
+===============================================================================
+ARCHIVO 2 — ipc_eeuu.csv
+===============================================================================
+
+anio                     Año.
+ipc_eeuu                 Índice de precios al consumidor de Estados Unidos,
+                         promedio anual, base 1982-1984 = 100.
+                         Fuente: U.S. Bureau of Labor Statistics, serie CPI-U.
+
+===============================================================================
+DOS REGLAS DEL NEGOCIO QUE HAY QUE CONOCER
+===============================================================================
+
+1. LA RECAUDACIÓN NO ES LA GANANCIA.
+   De cada dólar de boletería, el exhibidor se queda aproximadamente con la
+   mitad. Además, el presupuesto de la tabla NO incluye el gasto de marketing y
+   distribución, que en una película de estudio ronda entre el 50% y el 100% del
+   presupuesto de producción.
+
+   La regla que usa la industria para decir que una película recuperó la
+   inversión es que la recaudación mundial supere 2,5 veces el presupuesto de
+   producción. Por debajo de eso, la película perdió plata en salas.
+
+2. UN DÓLAR DE 1985 NO ES UN DÓLAR DE 2020.
+   Las dos columnas de dinero están en dólares corrientes del año de estreno.
+   Comparar una recaudación de 1985 contra una de 2018 sin corregir por
+   inflación no compara rentabilidad: compara años. Para eso está ipc_eeuu.csv.
+
+===============================================================================
+OBJETIVO
+===============================================================================
+
+Producir una tesis de inversión defendible para colocar USD 500 millones en
+producción cinematográfica, respondiendo:
+
+1. ¿CUÁNTO RINDE Y CUÁNTO SE PIERDE?
+   Caracterizar el retorno de la industria por género, tramo de presupuesto,
+   clasificación, franquicia, productora y época. La diferencia entre el
+   promedio y la mediana no es un detalle técnico: acá es el hallazgo.
+
+2. ¿DÓNDE ESTÁ EL RIESGO?
+   Un segmento con retorno esperado alto puede tener una probabilidad de
+   fracaso mayor que uno con retorno menor. Medir las dos cosas y ubicar los
+   segmentos en un plano de riesgo y retorno.
+
+3. ¿QUÉ PASA CON LAS PELÍCULAS QUE NO ESTÁN?
+   Casi tres de cada diez películas de la base no tienen presupuesto cargado.
+   Antes de descartarlas, averiguar si son un grupo cualquiera o si faltan por
+   una razón, y decir qué efecto tiene esa decisión sobre las conclusiones.
+
+4. ¿CÓMO REPARTIMOS LOS USD 500 MILLONES?
+   Proponer una asignación del fondo entre arquetipos de película, con la
+   cantidad de proyectos por arquetipo, el retorno esperado del portafolio y la
+   probabilidad de perder capital. Justificar por qué no se pone todo en el
+   segmento de mejor retorno.
+
+5. ¿LA TESIS SOBREVIVE FUERA DE MUESTRA?
+   Construir los criterios usando las películas hasta 2014 y verificar cómo
+   habrían funcionado en las estrenadas entre 2015 y 2020.
+
+El entregable final es una presentación ejecutiva al comité de inversiones.
+
+===============================================================================
+ADVERTENCIA
+===============================================================================
+
+La base se armó juntando varias fuentes a lo largo de los años y nunca se
+auditó. Tiene filas repetidas, valores imposibles, centinelas de faltante
+disfrazados de dato, al menos una columna donde conviven dos escalas distintas y
+categorías escritas de varias maneras. Nada de eso está documentado acá a
+propósito.
+
+Antes de sacar conclusiones, audítenla.
+
+===============================================================================
+Construido sobre el dataset público kaggle.com/datasets/danielgrijalvas/movies,
+con problemas de calidad de datos agregados para uso docente. Arroyo Capital es
+un fondo ficticio.
