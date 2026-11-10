@@ -1,0 +1,355 @@
+id,fecha,descripcion,monto,categoria,medio_pago
+1,2025-01-01,Cuota universidad,-1197.39,Educacion,Debito
+2,2025-01-03,Gastos comunes,-4617.31,Vivienda,Credito
+3,2025-01-05,Salario mensual,50572.38,Ingresos,Transferencia
+4,2025-01-08,Cuota universidad,-1730.33,Educacion,Efectivo
+5,2025-01-10,Fondo de inversion,-1771.94,Ahorro e inversion,Credito
+6,2025-01-10,Spotify,-541.67,Ocio,Transferencia
+7,2025-01-13,Fondo de inversion,-3835.8,Ahorro e inversion,Efectivo
+8,2025-01-13,Teatro Solis,-895.18,Ocio,Credito
+9,2025-01-14,Cuota mutualista,-54.36,Salud,Credito
+10,2025-01-14,Transferencia caja de ahorro,-2171.26,Ahorro e inversion,Efectivo
+11,2025-01-14,Libros,-1112.11,Educacion,Transferencia
+12,2025-01-16,Libros,-139.64,Educacion,Efectivo
+13,2025-01-18,OSE,-4785.06,Vivienda,Transferencia
+14,2025-01-18,Devoto,-1143.1,Supermercado,Credito
+15,2025-01-19,UTE,-4668.86,Vivienda,Debito
+16,2025-01-23,OSE,-4742.18,Vivienda,Transferencia
+17,2025-01-23,Transferencia caja de ahorro,-3242.03,Ahorro e inversion,Transferencia
+18,2025-01-24,Uber,-625.91,Transporte,Transferencia
+19,2025-01-25,Teatro Solis,-149.51,Ocio,Transferencia
+20,2025-02-01,Antel hogar,-5049.06,Vivienda,Efectivo
+21,2025-02-02,Odontologo,-672.66,Salud,Transferencia
+22,2025-02-03,Cuota universidad,-1215.71,Educacion,Credito
+23,2025-02-03,Macromercado,-2594.18,Supermercado,Transferencia
+24,2025-02-03,OSE,-5028.97,,Credito
+25,2025-02-04,Cuota mutualista,-841.34,,Credito
+26,2025-02-05,Salario mensual,50356.72,Ingresos,Transferencia
+27,2025-02-08,Service auto,-1110.16,Transporte,Debito
+28,2025-02-10,Compra de UI,-2134.18,Ahorro e inversion,Efectivo
+29,2025-02-11,Disco,-2601.76,Supermercado,Efectivo
+30,2025-02-12,Cuota universidad,-1354.1,Educacion,Transferencia
+31,2025-02-14,Netflix,-437.54,,Transferencia
+32,2025-02-16,Uber,-695.98,Transporte,Transferencia
+33,2025-02-17,Odontologo,-908.04,Salud,Transferencia
+34,2025-02-17,Teatro Solis,-609.45,Ocio,Debito
+35,2025-02-19,Restaurante,-534.05,Ocio,Credito
+36,2025-02-21,Compra de UI,-1647.03,Ahorro e inversion,Transferencia
+37,2025-02-25,Curso online,-1841.14,Educacion,Credito
+38,2025-02-27,Macromercado,-3443.24,Supermercado,Transferencia
+39,2025-03-01,Optica,-1406.53,Salud,Credito
+40,2025-03-02,UTE,-4368.53,Vivienda,Debito
+41,2025-03-04,Gastos comunes,-5162.11,Vivienda,Transferencia
+42,2025-03-05,Salario mensual,50091.41,Ingresos,Transferencia
+43,2025-03-06,Farmacia San Roque,-1426.83,Salud,Credito
+44,2025-03-07,Curso online,-829.95,Educacion,Transferencia
+45,2025-03-09,Teatro Solis,-825.24,Ocio,Debito
+46,2025-03-12,Cuota universidad,-1691.0,Educacion,Debito
+47,2025-03-14,Peaje,-1692.72,,Efectivo
+48,2025-03-15,Disco,-621.84,Supermercado,Credito
+49,2025-03-18,Tienda Inglesa,-2099.99,Supermercado,Credito
+50,2025-03-18,Libros,-945.4,Educacion,Efectivo
+51,2025-03-21,Compra de UI,-3170.11,Ahorro e inversion,Credito
+52,2025-03-22,Service auto,,Transporte,Efectivo
+53,2025-03-24,Macromercado,-1566.43,Supermercado,Credito
+54,2025-03-26,Compra de UI,-3305.95,Ahorro e inversion,Debito
+55,2025-03-27,Devoto,-3970.65,Supermercado,Debito
+56,2025-03-28,Uber,203.3,Transporte,Debito
+57,2025-04-05,Uber,-843.88,,Debito
+58,2025-04-05,Salario mensual,53003.14,Ingresos,Transferencia
+59,2025-04-06,Service auto,-1435.42,Transporte,Transferencia
+60,2025-04-07,Libros,-384.85,Educacion,Debito
+61,2025-04-12,OSE,-4761.95,Vivienda,Debito
+62,2025-04-12,Antel hogar,-4554.51,Vivienda,Debito
+63,2025-04-12,OSE,-4801.71,Vivienda,Credito
+64,2025-04-12,Uber,-1260.83,Transporte,Credito
+65,2025-04-12,Cuota mutualista,-1060.45,Salud,Transferencia
+66,2025-04-14,Netflix,-107.37,Ocio,Debito
+67,2025-04-15,Transferencia caja de ahorro,-3103.35,Ahorro e inversion,Credito
+68,2025-04-15,Fondo de inversion,-1890.88,Ahorro e inversion,Efectivo
+69,2025-04-15,STM recarga,-1092.74,Transporte,Efectivo
+70,2025-04-19,Ta-Ta,-3254.63,Supermercado,Transferencia
+71,2025-04-19,Tienda Inglesa,-1596.06,Supermercado,Debito
+72,2025-04-23,Transferencia caja de ahorro,-3089.73,,Transferencia
+73,2025-04-25,Transferencia caja de ahorro,-3969.28,Ahorro e inversion,Efectivo
+74,2025-04-26,Devoto,-2064.92,Supermercado,Transferencia
+75,2025-04-27,Libros,-1848.14,Educacion,Transferencia
+76,2025-04-28,Cuota mutualista,-1064.75,,Credito
+77,2025-04-28,Cuota universidad,-1095.58,Educacion,Debito
+78,2025-05-01,Peaje,-1312.12,Transporte,Efectivo
+79,2025-05-02,STM recarga,-538.31,Transporte,Debito
+80,2025-05-02,Uber,-762.8,Transporte,Debito
+81,2025-05-04,Macromercado,-2143.28,Supermercado,Credito
+82,2025-05-05,Salario mensual,52170.12,Ingresos,Transferencia
+83,2025-05-05,Cuota universidad,-1834.32,Educacion,Efectivo
+84,2025-05-05,Teatro Solis,-391.01,Ocio,Transferencia
+85,2025-05-09,UTE,-4692.64,Vivienda,Credito
+86,2025-05-10,Compra de UI,-3330.7,Ahorro e inversion,Efectivo
+87,2025-05-10,Gastos comunes,-4545.11,Vivienda,Transferencia
+88,2025-05-12,Compra de UI,-3477.7,Ahorro e inversion,Debito
+89,2025-05-12,Curso online,-1641.29,Educacion,Transferencia
+90,2025-05-14,Service auto,218.99,Transporte,Debito
+91,2025-05-15,Cine Montevideo Shopping,-817.75,Ocio,Efectivo
+92,2025-05-15,UTE,-4125.17,Vivienda,Efectivo
+93,2025-05-18,Tienda Inglesa,-3508.09,Supermercado,Credito
+94,2025-05-19,Transferencia caja de ahorro,-3273.2,Ahorro e inversion,Debito
+95,2025-05-22,Macromercado,-3697.46,Supermercado,Debito
+96,2025-05-22,Libros,-766.64,Educacion,Efectivo
+97,2025-05-22,Transferencia caja de ahorro,,,Efectivo
+98,2025-05-23,Odontologo,-1284.3,,Credito
+99,2025-05-23,UTE,-4390.15,Vivienda,Debito
+100,2025-05-24,Odontologo,-934.49,Salud,Transferencia
+101,2025-05-25,Netflix,-844.34,Ocio,Credito
+102,2025-05-27,Curso online,-1284.02,Educacion,Transferencia
+103,2025-06-05,Salario mensual,53498.1,Ingresos,Transferencia
+104,2025-06-08,Netflix,-139.67,Ocio,Transferencia
+105,2025-06-09,Odontologo,-1352.96,Salud,Debito
+106,2025-06-11,Transferencia caja de ahorro,-2833.5,Ahorro e inversion,Transferencia
+107,2025-06-11,Antel hogar,-5007.54,,Debito
+108,2025-06-14,Devoto,-1980.51,Supermercado,Transferencia
+109,2025-06-15,Service auto,-1087.05,Transporte,Credito
+110,2025-06-16,Cuota universidad,-1493.05,Educacion,Efectivo
+111,2025-06-17,Farmacia San Roque,-1037.8,Salud,Credito
+112,2025-06-19,Transferencia caja de ahorro,-4805.23,Ahorro e inversion,Credito
+113,2025-06-20,Aguinaldo,25837.15,Ingresos,Transferencia
+114,2025-06-25,Devoto,-1607.54,Supermercado,Credito
+115,2025-06-25,Netflix,-607.27,Ocio,Transferencia
+116,2025-06-25,Disco,-2956.97,Supermercado,Debito
+117,2025-06-25,Transferencia caja de ahorro,-2338.8,Ahorro e inversion,Transferencia
+118,2025-06-26,Netflix,-674.9,Ocio,Debito
+119,2025-07-02,Alquiler apartamento,-4862.2,Vivienda,Transferencia
+120,2025-07-04,Gastos comunes,-4685.91,Vivienda,Debito
+121,2025-07-05,Salario mensual,50000.97,Ingresos,Transferencia
+122,2025-07-05,Fondo de inversion,-3143.46,Ahorro e inversion,Credito
+123,2025-07-06,Combustible ANCAP,-1296.07,Transporte,Transferencia
+124,2025-07-07,Curso online,-1654.6,Educacion,Debito
+125,2025-07-12,STM recarga,-1119.31,Transporte,Credito
+126,2025-07-14,Fondo de inversion,-1392.91,Ahorro e inversion,Debito
+127,2025-07-14,Tienda Inglesa,-1699.39,Supermercado,Credito
+128,2025-07-14,Libros,-1110.12,Educacion,Credito
+129,2025-07-17,Cuota mutualista,-601.28,Salud,Transferencia
+130,2025-07-18,Cuota universidad,-1356.07,Educacion,Credito
+131,2025-07-18,Service auto,-1124.02,Transporte,Transferencia
+132,2025-07-19,Curso online,-1397.47,Educacion,Debito
+133,2025-07-19,Netflix,-629.46,Ocio,Credito
+134,2025-07-21,Alquiler apartamento,-4441.2,Vivienda,Credito
+135,2025-07-24,Transferencia caja de ahorro,-3135.3,Ahorro e inversion,Transferencia
+136,2025-07-25,Gastos comunes,-4326.89,Vivienda,Efectivo
+137,2025-07-27,Transferencia caja de ahorro,-4929.99,Ahorro e inversion,Debito
+138,2025-07-28,Restaurante,-885.14,,Efectivo
+139,2025-08-03,OSE,-4701.92,Vivienda,Credito
+140,2025-08-04,Gastos comunes,-5260.37,Vivienda,Debito
+141,2025-08-05,Salario mensual,53921.7,Ingresos,Transferencia
+142,2025-08-05,Cuota universidad,-1839.71,Educacion,Efectivo
+143,2025-08-06,Transferencia caja de ahorro,-3151.77,Ahorro e inversion,Credito
+144,2025-08-09,Gastos comunes,-4387.52,Vivienda,Credito
+145,2025-08-09,STM recarga,-708.86,Transporte,Efectivo
+146,2025-08-09,Netflix,-290.71,Ocio,Credito
+147,2025-08-10,Odontologo,-644.49,,Credito
+148,2025-08-10,Teatro Solis,,Ocio,Efectivo
+149,2025-08-10,Libros,-1493.97,Educacion,Debito
+150,2025-08-16,Disco,-2057.18,Supermercado,Transferencia
+151,2025-08-17,Antel hogar,-4574.95,,Transferencia
+152,2025-08-21,Optica,-1514.67,Salud,Transferencia
+153,2025-08-22,Cuota universidad,-1185.9,Educacion,Debito
+154,2025-08-22,Libros,-1314.08,Educacion,Debito
+155,2025-08-23,STM recarga,-1180.46,Transporte,Credito
+156,2025-09-02,Curso online,-1441.6,Educacion,Debito
+157,2025-09-03,Compra de UI,-3585.51,Ahorro e inversion,Transferencia
+158,2025-09-03,Netflix,-505.78,Ocio,Debito
+159,2025-09-03,Peaje,-1553.31,Transporte,Efectivo
+160,2025-09-03,Antel hogar,-4531.88,Vivienda,Debito
+161,2025-09-03,Tienda Inglesa,-3507.0,Supermercado,Credito
+162,2025-09-05,Salario mensual,52065.69,Ingresos,Transferencia
+163,2025-09-07,UTE,-4558.46,Vivienda,Efectivo
+164,2025-09-07,Libros,-1308.16,Educacion,Efectivo
+165,2025-09-08,Fondo de inversion,-2321.48,Ahorro e inversion,Debito
+166,2025-09-11,Cine Montevideo Shopping,-229.96,Ocio,Credito
+167,2025-09-14,UTE,-4760.53,Vivienda,Efectivo
+168,2025-09-15,Cuota universidad,-1356.86,Educacion,Transferencia
+169,2025-09-17,Peaje,-1408.68,Transporte,Credito
+170,2025-09-17,Optica,318.88,Salud,Debito
+171,2025-09-17,Compra de UI,-2030.54,Ahorro e inversion,Credito
+172,2025-09-18,Fondo de inversion,-1840.26,Ahorro e inversion,Efectivo
+173,2025-09-18,Combustible ANCAP,-676.0,Transporte,Credito
+174,2025-09-19,Libros,-1229.19,,Transferencia
+175,2025-09-20,Uber,-842.57,Transporte,Debito
+176,2025-09-24,Gastos comunes,-4958.01,Vivienda,Efectivo
+177,2025-10-01,Service auto,-816.24,Transporte,Credito
+178,2025-10-02,UTE,-4641.78,Vivienda,Debito
+179,2025-10-05,Salario mensual,53298.85,Ingresos,Transferencia
+180,2025-10-10,Tienda Inglesa,-2079.36,Supermercado,Transferencia
+181,2025-10-11,Fondo de inversion,-1300.11,,Debito
+182,2025-10-12,Cuota mutualista,-1698.57,Salud,Debito
+183,2025-10-12,Teatro Solis,-825.23,Ocio,Credito
+184,2025-10-14,Optica,-833.3,Salud,Transferencia
+185,2025-10-15,Ta-Ta,-2304.16,Supermercado,Credito
+186,2025-10-15,Antel hogar,-4532.74,Vivienda,Transferencia
+187,2025-10-20,Gastos comunes,-4694.04,Vivienda,Debito
+188,2025-10-20,Peaje,-500.7,Transporte,Efectivo
+189,2025-10-20,Farmacia San Roque,-1364.17,Salud,Transferencia
+190,2025-10-22,Restaurante,-652.31,Ocio,Credito
+191,2025-10-23,Devoto,-2359.38,Supermercado,Transferencia
+192,2025-10-23,Spotify,-390.57,Ocio,Transferencia
+193,2025-10-24,UTE,-4827.12,Vivienda,Transferencia
+194,2025-10-24,Combustible ANCAP,-863.64,Transporte,Efectivo
+195,2025-10-25,Tienda Inglesa,-1938.94,Supermercado,Efectivo
+196,2025-10-26,Curso online,-2026.97,Educacion,Debito
+197,2025-10-26,Compra de UI,-5030.47,Ahorro e inversion,Credito
+198,2025-10-27,Restaurante,-322.93,Ocio,Transferencia
+199,2025-10-27,STM recarga,-1054.24,Transporte,Credito
+200,2025-11-01,Tienda Inglesa,-2268.09,Supermercado,Efectivo
+201,2025-11-03,Antel hogar,-5508.07,Vivienda,Transferencia
+202,2025-11-05,Salario mensual,52692.05,Ingresos,Transferencia
+203,2025-11-05,Service auto,-53.28,Transporte,Debito
+204,2025-11-08,UTE,-4855.71,Vivienda,Credito
+205,2025-11-09,Spotify,,Ocio,Credito
+206,2025-11-09,Service auto,-593.91,Transporte,Efectivo
+207,2025-11-17,Odontologo,-1149.64,Salud,Transferencia
+208,2025-11-20,Combustible ANCAP,-1025.71,Transporte,Debito
+209,2025-11-21,Curso online,-1886.54,,Transferencia
+210,2025-11-23,Gastos comunes,-4546.66,Vivienda,Transferencia
+211,2025-11-23,Ta-Ta,-2789.31,Supermercado,Efectivo
+212,2025-11-23,Fondo de inversion,-1353.79,Ahorro e inversion,Credito
+213,2025-12-01,Transferencia caja de ahorro,-2406.42,Ahorro e inversion,Debito
+214,2025-12-02,Curso online,-1007.41,,Debito
+215,2025-12-05,Salario mensual,51586.71,Ingresos,Transferencia
+216,2025-12-06,Disco,-1900.05,Supermercado,Transferencia
+217,2025-12-07,Transferencia caja de ahorro,-4228.96,Ahorro e inversion,Credito
+218,2025-12-07,Optica,-1106.77,Salud,Credito
+219,2025-12-08,Netflix,-863.35,Ocio,Efectivo
+220,2025-12-09,Disco,-2124.63,Supermercado,Efectivo
+221,2025-12-09,Netflix,-583.56,Ocio,Transferencia
+222,2025-12-09,Cuota universidad,-1024.8,Educacion,Efectivo
+223,2025-12-10,Odontologo,-1004.96,Salud,Credito
+224,2025-12-10,Libros,-1468.03,Educacion,Credito
+225,2025-12-13,Optica,-261.43,Salud,Efectivo
+226,2025-12-14,Optica,-1089.68,Salud,Efectivo
+227,2025-12-15,Tienda Inglesa,-2646.93,,Debito
+228,2025-12-16,OSE,-5125.33,Vivienda,Transferencia
+229,2025-12-16,Antel hogar,-5023.57,Vivienda,Credito
+230,2025-12-17,Disco,-2012.84,Supermercado,Credito
+231,2025-12-19,Compra de UI,-2445.41,Ahorro e inversion,Efectivo
+232,2025-12-19,Curso online,-1051.87,Educacion,Transferencia
+233,2025-12-19,Uber,-457.66,Transporte,Transferencia
+234,2025-12-20,Aguinaldo,26498.41,Ingresos,Transferencia
+235,2025-12-21,Antel hogar,-4763.45,Vivienda,Efectivo
+236,2025-12-22,Restaurante,-628.31,Ocio,Transferencia
+237,2025-12-25,Transferencia caja de ahorro,-3082.6,Ahorro e inversion,Credito
+238,2025-12-26,Antel hogar,-4904.94,Vivienda,Efectivo
+239,2025-12-28,Netflix,,Ocio,Credito
+240,2026-01-01,Combustible ANCAP,-809.66,Transporte,Credito
+241,2026-01-03,Teatro Solis,-1048.68,Ocio,Efectivo
+242,2026-01-03,Antel hogar,-4758.13,Vivienda,Efectivo
+243,2026-01-03,Compra de UI,-4621.5,Ahorro e inversion,Transferencia
+244,2026-01-05,Salario mensual,52213.67,Ingresos,Transferencia
+245,2026-01-05,Transferencia caja de ahorro,-1944.67,Ahorro e inversion,Transferencia
+246,2026-01-06,Peaje,-1379.38,Transporte,Credito
+247,2026-01-09,Restaurante,-533.42,Ocio,Efectivo
+248,2026-01-10,Curso online,-1363.27,Educacion,Efectivo
+249,2026-01-11,Alquiler apartamento,-4711.46,Vivienda,Transferencia
+250,2026-01-13,Cuota mutualista,-999.21,Salud,Efectivo
+251,2026-01-13,OSE,-5030.86,Vivienda,Transferencia
+252,2026-01-13,Combustible ANCAP,-408.85,Transporte,Credito
+253,2026-01-18,Gastos comunes,-5146.28,Vivienda,Debito
+254,2026-01-19,Compra de UI,-2532.03,Ahorro e inversion,Transferencia
+255,2026-01-21,Disco,-2242.17,Supermercado,Credito
+256,2026-01-21,Cine Montevideo Shopping,-1289.89,Ocio,Transferencia
+257,2026-01-23,Libros,-1150.3,Educacion,Credito
+258,2026-01-23,Cuota mutualista,-104.14,Salud,Credito
+259,2026-01-26,Transferencia caja de ahorro,-2075.11,,Efectivo
+260,2026-01-27,Teatro Solis,-37.36,,Credito
+261,2026-01-28,Devoto,-3249.98,Supermercado,Debito
+262,2026-02-04,Fondo de inversion,-3096.64,Ahorro e inversion,Efectivo
+263,2026-02-04,Cuota universidad,-1736.87,Educacion,Credito
+264,2026-02-05,Salario mensual,50332.48,Ingresos,Transferencia
+265,2026-02-06,Alquiler apartamento,-4973.29,Vivienda,Debito
+266,2026-02-06,Fondo de inversion,-3472.2,Ahorro e inversion,Transferencia
+267,2026-02-09,Devoto,-1986.85,Supermercado,Efectivo
+268,2026-02-10,OSE,-4568.12,Vivienda,Debito
+269,2026-02-10,Alquiler apartamento,-5400.73,Vivienda,Efectivo
+270,2026-02-11,Compra de UI,-3290.47,,Efectivo
+271,2026-02-11,Netflix,-836.04,Ocio,Transferencia
+272,2026-02-12,Optica,-2010.2,Salud,Debito
+273,2026-02-13,Optica,-1291.75,Salud,Debito
+274,2026-02-13,Uber,-952.3,Transporte,Debito
+275,2026-02-15,Cuota universidad,-1512.57,Educacion,Efectivo
+276,2026-02-21,Curso online,-1420.46,Educacion,Transferencia
+277,2026-02-21,Disco,-3598.47,Supermercado,Credito
+278,2026-02-21,Restaurante,-696.94,Ocio,Efectivo
+279,2026-02-26,Farmacia San Roque,-716.84,Salud,Transferencia
+280,2026-02-27,Compra de UI,-3038.26,Ahorro e inversion,Transferencia
+281,2026-02-28,Curso online,-1624.97,Educacion,Credito
+282,2026-03-01,Spotify,-450.73,Ocio,Debito
+283,2026-03-05,Salario mensual,48194.34,Ingresos,Transferencia
+284,2026-03-05,Tienda Inglesa,-2363.32,Supermercado,Transferencia
+285,2026-03-05,Spotify,-461.45,Ocio,Efectivo
+286,2026-03-07,Curso online,-2413.1,Educacion,Efectivo
+287,2026-03-07,Uber,-74.54,Transporte,Efectivo
+288,2026-03-10,Libros,-1595.47,,Transferencia
+289,2026-03-10,Libros,-1880.81,Educacion,Efectivo
+290,2026-03-12,Cuota mutualista,-753.78,,Debito
+291,2026-03-12,Devoto,-2207.98,Supermercado,Debito
+292,2026-03-13,Fondo de inversion,-1739.82,Ahorro e inversion,Transferencia
+293,2026-03-13,UTE,-5300.57,,Debito
+294,2026-03-14,Ta-Ta,-1736.53,Supermercado,Efectivo
+295,2026-03-18,Farmacia San Roque,-1154.19,Salud,Debito
+296,2026-03-20,Antel hogar,-4899.15,Vivienda,Transferencia
+297,2026-03-26,Teatro Solis,-471.32,Ocio,Transferencia
+298,2026-03-26,Cuota universidad,-971.73,Educacion,Transferencia
+299,2026-04-02,Farmacia San Roque,-411.68,Salud,Debito
+300,2026-04-03,OSE,-4766.79,Vivienda,Efectivo
+301,2026-04-05,Spotify,-988.96,,Credito
+302,2026-04-05,Salario mensual,52649.04,Ingresos,Transferencia
+303,2026-04-05,Fondo de inversion,-2944.35,Ahorro e inversion,Credito
+304,2026-04-06,Service auto,-469.63,,Transferencia
+305,2026-04-08,Netflix,-594.13,Ocio,Transferencia
+306,2026-04-11,Farmacia San Roque,-529.35,Salud,Debito
+307,2026-04-13,Optica,-472.46,Salud,Debito
+308,2026-04-15,Cuota mutualista,-742.01,Salud,Debito
+309,2026-04-18,Libros,-1469.02,Educacion,Credito
+310,2026-04-20,Disco,-2877.42,,Transferencia
+311,2026-04-20,Teatro Solis,-413.12,Ocio,Debito
+312,2026-04-21,Cuota universidad,-1416.87,Educacion,Transferencia
+313,2026-04-22,Cine Montevideo Shopping,-605.06,Ocio,Credito
+314,2026-04-28,Fondo de inversion,-4128.37,Ahorro e inversion,Debito
+315,2026-05-01,Compra de UI,-2960.77,Ahorro e inversion,Credito
+316,2026-05-01,Restaurante,-403.65,Ocio,Credito
+317,2026-05-02,Ta-Ta,-2796.91,Supermercado,Transferencia
+318,2026-05-03,UTE,-5053.92,Vivienda,Credito
+319,2026-05-04,Cine Montevideo Shopping,-648.8,Ocio,Efectivo
+320,2026-05-04,Service auto,-228.88,Transporte,Efectivo
+321,2026-05-04,Compra de UI,-3701.78,Ahorro e inversion,Efectivo
+322,2026-05-05,Transferencia caja de ahorro,-2890.68,Ahorro e inversion,Efectivo
+323,2026-05-05,Fondo de inversion,-2942.83,Ahorro e inversion,Credito
+324,2026-05-05,Salario mensual,53464.23,Ingresos,Transferencia
+325,2026-05-09,UTE,-4631.12,Vivienda,Debito
+326,2026-05-12,Optica,-1360.58,Salud,Credito
+327,2026-05-16,OSE,-5088.65,,Transferencia
+328,2026-05-16,STM recarga,-832.8,Transporte,Transferencia
+329,2026-05-17,Libros,-1465.57,Educacion,Efectivo
+330,2026-05-20,Cine Montevideo Shopping,-848.01,Ocio,Transferencia
+331,2026-05-21,Libros,-1172.69,Educacion,Credito
+332,2026-05-22,Odontologo,-1361.28,Salud,Transferencia
+333,2026-05-23,Cuota universidad,-1935.85,Educacion,Efectivo
+334,2026-05-24,UTE,-4689.3,Vivienda,Transferencia
+335,2026-05-28,Cuota universidad,-1731.2,,Debito
+336,2026-06-01,Cuota universidad,-526.43,Educacion,Debito
+337,2026-06-01,Antel hogar,-4701.92,Vivienda,Efectivo
+338,2026-06-02,Gastos comunes,-4750.1,,Debito
+339,2026-06-04,Transferencia caja de ahorro,-3042.69,Ahorro e inversion,Transferencia
+340,2026-06-05,Salario mensual,50778.19,Ingresos,Transferencia
+341,2026-06-12,Farmacia San Roque,-1169.45,Salud,Efectivo
+342,2026-06-14,Curso online,-1150.64,Educacion,Debito
+343,2026-06-14,Transferencia caja de ahorro,-4397.85,Ahorro e inversion,Credito
+344,2026-06-14,Libros,-1224.77,Educacion,Transferencia
+345,2026-06-15,Service auto,-1006.63,Transporte,Efectivo
+346,2026-06-16,Spotify,-549.97,Ocio,Debito
+347,2026-06-17,Service auto,-902.31,Transporte,Debito
+348,2026-06-20,Aguinaldo,22890.31,Ingresos,Transferencia
+349,2026-06-21,Gastos comunes,-4879.5,Vivienda,Transferencia
+350,2026-06-22,Optica,-1650.48,Salud,Debito
+351,2026-06-23,Tienda Inglesa,-2493.36,Supermercado,Efectivo
+352,2026-06-23,Antel hogar,-4521.15,Vivienda,Transferencia
+353,2026-06-26,Compra de UI,,Ahorro e inversion,Efectivo
+354,2026-06-28,Macromercado,-1902.72,Supermercado,Efectivo
