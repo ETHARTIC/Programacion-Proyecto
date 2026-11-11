@@ -37,7 +37,6 @@ Tambien se puede abrir el notebook con VS Code usando el mismo entorno. Las ruta
 - `notebooks/Proyecto_Final_B_Portafolio_Cine.ipynb`: version principal para la entrega y la presentacion.
 - `salidas/`: graficos PNG y HTML generados por el notebook principal.
 - `instrucciones/`: consigna y descripcion de los datos.
-- `clases/`: material de referencia del curso y ejercicios.
 
 ## Supuestos de la propuesta
 
