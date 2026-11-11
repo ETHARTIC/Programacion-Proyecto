@@ -1,0 +1,4 @@
+Celdas de código ejecutadas en orden sin errores: 28
+                                 supuesto  prob_perder_capital_pct  roi_decil_inferior_pct  roi_mediano_pct
+         Proyectos sorteados por separado                     0.88               45.741595       113.148452
+Resultado compartido dentro de cada grupo                    23.01              -25.810038        59.275154

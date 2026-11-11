@@ -1,10 +1,12 @@
-# Proyecto final B: portafolio de cine
+# Arroyo Capital: inversión en cine
 
-Análisis para Arroyo Capital de una cartera hipotética de USD 500 millones. El cuaderno audita los datos de películas e IPC, calcula valores reales y ROI, compara riesgo y retorno por segmento, y simula una propuesta de inversión. Los ocho gráficos interactivos también están disponibles como archivos HTML en `salidas/`.
+Proyecto final B de Programación Analítica II — Ethan Schcolnik y Nicolás Gómez.
 
-## Requisitos
+Analizamos la base histórica de películas y el IPC de Estados Unidos para proponer una distribución de USD 500 millones. El notebook revisa la calidad de los datos, ajusta los importes por inflación, compara retorno y riesgo y simula una cartera.
 
-Python 3.11 o superior. Desde la raíz del repositorio:
+## Preparar el entorno
+
+Se necesita Python 3.11 o superior. Desde la raíz del repositorio:
 
 ```powershell
 py -3.11 -m venv .venv
@@ -12,19 +14,36 @@ py -3.11 -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-## Reproducir
+En macOS o Linux:
 
-1. Conservar `datos/peliculas.csv` y `datos/ipc_eeuu.csv` sin cambios.
-2. Abrir `notebooks/Proyecto_Final_B_Portafolio_Cine.ipynb` en Jupyter o VS Code con el entorno creado.
-3. Ejecutar todas las celdas de arriba hacia abajo, desde la raíz del repositorio o desde `notebooks/`.
-4. Revisar las tablas y gráficos dentro del cuaderno. Los HTML se regeneran en `salidas/`.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
 
-## Estructura
+## Ejecutar el proyecto
 
-- `datos/`: datos originales del curso.
-- `instrucciones/`: consigna original.
-- `clases/`: material usado para seguir las prácticas del curso.
-- `notebooks/`: cuaderno principal y copia solicitada del trabajo inicial.
-- `salidas/`: gráficos interactivos HTML.
+1. Abrir Jupyter con `python -m notebook` desde la raíz del repositorio.
+2. Abrir `notebooks/Proyecto_Final_B_Portafolio_Cine.ipynb`.
+3. Seleccionar el entorno instalado y ejecutar todas las celdas de arriba abajo.
+4. Revisar las observaciones que aparecen después del código. Los gráficos y las tablas se guardan en `salidas/`.
 
-Los resultados son descriptivos. La recaudación en salas no equivale a ganancia contractual del fondo; la simulación explicita sus supuestos de costos y reparto.
+También se puede abrir el notebook con VS Code usando el mismo entorno. Las rutas funcionan desde la raíz o desde `notebooks/`. Los gráficos HTML interactivos necesitan conexión para cargar Plotly.
+
+## Qué contiene cada carpeta
+
+- `datos/`: CSV originales, que se conservan sin modificaciones.
+- `notebooks/Proyecto_Final_B_Portafolio_Cine.ipynb`: versión principal para la entrega y la presentación.
+- `notebooks/borradores/`: antecedentes de la limpieza y exploraciones previas. Sus cifras y propuestas no son la versión final; algunos conservan rutas originales de Colab.
+- `salidas/`: gráficos PNG y HTML y tablas CSV generadas por el notebook principal.
+- `instrucciones/`: consigna y descripción de los datos.
+- `clases/`: material de referencia del curso y ejercicios.
+
+## Supuestos de la propuesta
+
+Los USD 500 millones cubren producción y marketing. En el escenario base, marketing y distribución equivalen al 50 % del presupuesto de producción y el estudio recibe la mitad de la boletería. La propuesta tiene cuatro grupos y 19 proyectos, y compara el presupuesto de producción disponible por película con su mediana histórica.
+
+Los montos se expresan en dólares de 2020 para compararlos con la base: al invertir en otro año se debe actualizar el capital y los costos. La regla comercial de 2,5× se informa por separado del ROI estimado, cuyo equilibrio queda en 3× bajo estos supuestos.
+
+La simulación compara proyectos independientes con resultados compartidos por grupo y prueba sensibilidad a éxitos extremos y mayor marketing. Son escenarios históricos condicionados a los supuestos, no garantías ni retornos contractuales del fondo. La presentación ejecutiva de diez minutos es un entregable separado.
