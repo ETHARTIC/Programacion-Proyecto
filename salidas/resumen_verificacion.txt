@@ -1,4 +1,7 @@
-Celdas de codigo ejecutadas: 60
-                                 supuesto  prob_perder_capital_pct  roi_decil_inferior_pct  roi_mediano_pct
-         Proyectos sorteados por separado                     0.88               45.741595       113.148452
-Resultado compartido dentro de cada grupo                    23.01              -25.810038        59.275154
+Notebook ejecutado completo: 40 celdas de código.
+Películas depuradas: 7668.
+Universo principal: 5215.
+Capital asignado: 500 millones de USD de 2020.
+Proyectos: 19.
+Simulaciones por supuesto: 10000.
+Probabilidad de pérdida: 0,88% con proyectos independientes y 23,01% con resultado compartido por grupo.
